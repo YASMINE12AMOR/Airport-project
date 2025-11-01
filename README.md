@@ -106,9 +106,6 @@ Liste interactive des aéroports (pays, nom, altitude, longueur piste, nb pistes
 🎛️ Filtre par pays
 
 Permet de filtrer toutes les visualisations par pays.
-Message envoyé par NiFi dans le topic Kafka :
-
-![données_aéroport](images/kafka_output.JPG)
 
 ##  Lancement global du pipeline
 
@@ -138,8 +135,9 @@ docker exec -it kafka kafka-topics.sh --bootstrap-server kafka:9092 --list
 docker exec -it kafka kafka-console-consumer.sh --bootstrap-serv
 er kafka:9092 --topic flights_positions --from-beginning --max-messages 1
 ```
+#### Message envoyé par NiFi à Kafka  :
 
-ou via **Offset Explorer**.
+![données_aéroport](images/kafka_output.JPG)
 
 ### 4️⃣ Spark Streaming
 
