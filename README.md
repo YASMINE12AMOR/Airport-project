@@ -65,7 +65,7 @@ Le tableau de bord Power BI permet d’explorer et analyser les aéroports du mo
 
 La base **PostgreSQL** est connectée à Power BI pour la visualisation.
 
-#### Visualisationss :
+#### Visualisations :
 
 🌍 Carte mondiale
 
@@ -119,10 +119,10 @@ docker compose -f docker-compose-M2DATA.yml up -d
 
 Configurer le flux NiFi (`InvokeHTTP → EvaluateJsonPath → AttributesToJSON → PublishKafkaRecord_2_0`).
 
-## Processeurs Nifi :
+#### Processeurs Nifi :
 ![pipeline_nifi](images/Nifimarche.JPG)
 
-## Configuration du processeur Kafka : 
+#### Configuration du processeur Kafka : 
 ![paramètres_kafka](images/nifitopic.JPG)
 
 ### 3️⃣ Vérification Kafka
