@@ -1,8 +1,5 @@
 #  Projet M2 — Pipeline ETL Distribué (Données Aériennes)
 
-**Durée** : 1 semaine  
-**Binôme** : Eya Bensalem & Yasmine  
-
 ##  Objectif
 
 Mettre en place un **pipeline Big Data distribué** pour collecter, traiter et visualiser des **données aériennes en temps réel** à partir de l’API *OpenAIP*.
@@ -49,9 +46,8 @@ Lecture depuis Kafka, parsing JSON, aplatissement, et écriture dans **PostgreSQ
 
 #### Schéma traité
 - Données sur les **aéroports** (id, nom, pays, coordonnées, longueur des pistes, altitude, etc.)
-
-/// image des données 
-![données_aéroport](données_aéroport.png)
+ 
+![données_aéroport](images/données_aéroport.png)
 
 #### Exemple d’exécution
 ```bash
