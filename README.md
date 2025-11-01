@@ -1,7 +1,7 @@
 #  Projet M2 — Pipeline ETL Distribué (Données Aériennes)
 
 **Durée** : 1 semaine  
-**Binôme** : Eya Bensalem & Yasmine  
+**Binôme** : Eya Bensalem & Yasmine Amor
 
 ##  Objectif
 
