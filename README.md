@@ -134,11 +134,11 @@ docker compose -f docker-compose-M2DATA.yml up -d
 
 Configurer le flux NiFi (`InvokeHTTP → EvaluateJsonPath → AttributesToJSON → PublishKafkaRecord_2_0`).
 
-image de configuration : 
-
-![paramètres_kafka](images/nifitopic.JPG)
+Image de template Nifi :
 ![pipeline_nifi](images/Nifimarche.JPG)
 
+image de configuration de processeur Kafka : 
+![paramètres_kafka](images/nifitopic.JPG)
 
 ### 3️⃣ Vérification Kafka
 
