@@ -47,7 +47,7 @@ Lecture depuis Kafka, parsing JSON, aplatissement, et écriture dans **PostgreSQ
 #### Schéma traité
 - Données sur les **aéroports** (id, nom, pays, coordonnées, longueur des pistes, altitude, etc.)
  
-![données_aéroport](images/données_aéroport.png)
+![données_aéroport](images/Data_airport.png)
 
 #### Exemple d’exécution
 ```bash
@@ -85,6 +85,9 @@ Le tableau de bord Power BI permet d’explorer et analyser les aéroports du mo
 🌍 Carte mondiale
 
 Affiche tous les aéroports par localisation (lat/lon) pour visualiser leur distribution globale.
+
+![données_aéroport](images/images_powerbi1.png)
+
 
 🔢 Indicateurs clés
 
@@ -170,11 +173,10 @@ Connecter PostgreSQL et actualiser les visuels en temps réel.
 
 | Fichier / Dossier | Description |
 |-------------------|-------------|
-| `architecture.png` | Schéma global du pipeline de données |
 | `docker-compose-M2DATA.yml` | Configuration Docker de l’environnement Big Data |
-| `stream_flights.py` | Script Spark Streaming pour ingestion & traitement |
-| `bi_dashboard.pbix` | Dashboard Power BI d'analyse |
-| `validation_template.xml` | Flow NiFi exporté pour automatisation |
-| `README.md` | Documentation du projet |
-| `Données Distribuées.pptx` | Support de présentation |
+| `Scripts/stream_flights.py` | Script Spark Streaming pour ingestion & traitement |
+| `Power BI/bi_dashboard.pbix` | Dashboard Power BI d'analyse |
+| `Nifi/validation_template.xml` | Flow NiFi exporté pour automatisation |
+| `Présentation/Données Distribuées.pptx` | Support de présentation |
+| `Présentation/Rapport_Donnees_Distribuees.docx` | Rapport |
 
