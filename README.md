@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 #  Projet M2 — Pipeline ETL Distribué (Données Aériennes)
 
 **Durée** : 1 semaine  
@@ -15,7 +13,7 @@ Le pipeline repose sur les technologies suivantes :
 
 ##  Architecture globale
 
-![Architecture](architecture.png)
+![Architecture](images/architecture.png)
 
 > Ce pipeline réalise un traitement complet des données aériennes :  
 > - **NiFi** ingère les données JSON depuis l’API OpenAIP.  
