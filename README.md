@@ -120,7 +120,7 @@ Permet de filtrer toutes les visualisations par pays.
 
 Message envoyé par NiFi dans le topic Kafka :
 
-image : kafka_output.JPG
+![données_aéroport](images/kafka_output.JPG)
 
 ##  Lancement global du pipeline
 
@@ -136,8 +136,8 @@ Configurer le flux NiFi (`InvokeHTTP → EvaluateJsonPath → AttributesToJSON �
 
 image de configuration : 
 
-![paramètres_kafka](nifitopic.JPG)
-![pipeline_nifi](Nifimarche.JPG)
+![paramètres_kafka](images/nifitopic.JPG)
+![pipeline_nifi](images/Nifimarche.JPG)
 
 
 ### 3️⃣ Vérification Kafka
@@ -166,15 +166,15 @@ _flights.py
 Connecter PostgreSQL et actualiser les visuels en temps réel.
 
 
-## 📁 Structure du dépôt
+## 📂 Structure du projet
 
-├── architecture.png           # Schéma du pipeline
-├── docker-compose-M2DATA.yml  # Environnement Docker
-├── stream_flights.py          # Code Spark Streaming
-├── bi_dashboard.pbix          # partie power BI 
-├── validation_template.xml    # Template NiFi (export)
-├── README.md                  # Documentation principale
-└── Données Distribuées.pptx   # Présentation PowerPoint
-=======
-# Airport-project
->>>>>>> 0278b688f53d3a55b96ff460e9227fb023109348
+| Fichier / Dossier | Description |
+|-------------------|-------------|
+| `architecture.png` | Schéma global du pipeline de données |
+| `docker-compose-M2DATA.yml` | Configuration Docker de l’environnement Big Data |
+| `stream_flights.py` | Script Spark Streaming pour ingestion & traitement |
+| `bi_dashboard.pbix` | Dashboard Power BI d'analyse |
+| `validation_template.xml` | Flow NiFi exporté pour automatisation |
+| `README.md` | Documentation du projet |
+| `Données Distribuées.pptx` | Support de présentation |
+
