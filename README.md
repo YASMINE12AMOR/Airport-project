@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #  Projet M2 — Pipeline ETL Distribué (Données Aériennes)
 
@@ -180,3 +181,6 @@ Connecter PostgreSQL et actualiser les visuels en temps réel.
 ├── validation_template.xml    # Template NiFi (export)
 ├── README.md                  # Documentation principale
 └── Données Distribuées.pptx   # Présentation PowerPoint
+=======
+# Airport-project
+>>>>>>> 0278b688f53d3a55b96ff460e9227fb023109348
