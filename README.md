@@ -1,5 +1,8 @@
 #  Projet M2 — Pipeline ETL Distribué (Données Aériennes)
 
+**Durée** : 1 semaine  
+**Binôme** : Eya Bensalem & Yasmine  
+
 ##  Objectif
 
 Mettre en place un **pipeline Big Data distribué** pour collecter, traiter et visualiser des **données aériennes en temps réel** à partir de l’API *OpenAIP*.
